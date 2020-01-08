@@ -21,13 +21,15 @@
             tools:layout_editor_absoluteX="158dp"
             tools:layout_editor_absoluteY="342dp"
             android:background="#1E2749"
-
+            android:textColor="#fff"
             app:layout_column="0"
             app:layout_row="0"
             />
 
     <Button
         android:id="@+id/button2"
+        android:textColor="#fff"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/enter"

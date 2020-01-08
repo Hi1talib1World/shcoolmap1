@@ -34,20 +34,4 @@
 
 
 
-    <android.support.v7.widget.GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="12dp">
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/enter"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="342dp"
-        app:layout_column="0"
-        app:layout_row="0"
-        />
-    </android.support.v7.widget.GridLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

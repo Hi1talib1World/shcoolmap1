@@ -18,6 +18,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.denzo.shcoolmap.MapsActivity;
 import com.denzo.shcoolmap.R;
+import com.denzo.shcoolmap.ui.Main2Activity;
 
 public class HomeFragment extends Fragment {
 
@@ -38,7 +39,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v)
             {
-                Intent i = new Intent(getContext(),MapsActivity.class);
+                Intent i = new Intent(getContext(), Main2Activity.class);
                 startActivity(i);
             }
         });

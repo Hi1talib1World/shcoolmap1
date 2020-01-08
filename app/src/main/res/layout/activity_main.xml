@@ -31,9 +31,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <GridView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
 
 
     <android.support.v7.widget.GridLayout

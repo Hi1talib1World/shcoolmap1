@@ -20,7 +20,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
             case 1:
                 shcoolsdetails tab2 = new shcoolsdetails();
                 return tab2;
-            
+
             default:
                 return null;
         }
